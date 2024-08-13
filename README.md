@@ -9,8 +9,9 @@
 
 
 Реализовано три теста:
-- TestMainHandlerWhenCountMoreThanTotal
+- TestMainHandlerStatusOk
   - - Запрос сформирован корректно, сервис возвращает код ответа 200 и тело ответа не пустое.
+- TestMainHandlerWhenCountMoreThanTotal
   - - Если в параметре `count` указано больше, чем есть всего, должны вернуться все доступные кафе.
 - TestMainHandlerWhenCityIsWrong
   - - Город, который передаётся в параметре `city`, не поддерживается. Сервис возвращает код ответа 400 и ошибку `wrong city value` в теле ответа.
